@@ -24,7 +24,7 @@ func maxValue(array [10]int) int {
 			maxValue += 0
 		}
 		// add 1 to counter
-		counter += 1
+		counter++
 	}
 	return (maxValue)
 }
@@ -43,7 +43,7 @@ func minValue(array [10]int) int {
 			minValue += 0
 		}
 		// add 1 to counter
-		counter += 1
+		counter++
 	}
 	return (minValue)
 }
@@ -77,7 +77,7 @@ func main() {
 		// print random value
 		fmt.Println(randomArray[counter])
 		// increase counter
-		counter += 1
+		counter++
 	}
 
 	// call max function
